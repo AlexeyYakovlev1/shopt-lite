@@ -1,0 +1,67 @@
+.bag-name {
+	text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    height: 1.2em;
+    white-space: nowrap;
+}
+
+.bag-to-shop {
+	display: block;
+	margin-top: 25px;
+	color: #0B042A;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.bag-nothing {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.bag-img {
+	width: 300px;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.bag-product {
+	border-top: 1px solid #ddd;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.bag-product:not(:first-child) {
+	margin-top: 25px;
+}
+
+.bag-price {
+	font-size: 21px;
+	display: block;
+	margin-top: 10px;
+}
+
+.bag-info {
+	width: 900px;
+}
+
+.bag-delete-input,
+.bag-buy-input {
+	display: block;
+	cursor: pointer;
+	margin-top: 10px;
+	border: none;
+    color: #fff;
+    padding: 10px;
+    background-color: #0B042A;
+    transition: background-color .2s ease;
+}
+
+.bag-delete-input:hover,
+.bag-buy-input:hover {
+	background-color: #1D0B71;
+}
