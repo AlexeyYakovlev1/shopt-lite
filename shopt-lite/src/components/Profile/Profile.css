@@ -1,6 +1,12 @@
-.profile-bag {
+small {
 	display: block;
+	margin-top: 10px;
+}
+
+.profile-bag {
+	display: inline-block;
 	margin-top: 25px;
 	color: #0B042A;
 	font-weight: bold;
+	font-size: 18px;
 }

@@ -7,7 +7,7 @@
 }
 
 .bag-to-shop {
-	display: block;
+	display: inline-block;
 	margin-top: 25px;
 	color: #0B042A;
 	font-size: 18px;

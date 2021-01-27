@@ -74,9 +74,9 @@ function Header() {
                                     <li>
                                         <a href={"/profile/"+logged.map(user => user._id)}>Профиль</a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="/auth/logout" onClick={() => dispatch(logOut())}>Выйти</a>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <a href={"/bag/"+logged.map(user => user._id)}>Корзина</a>
                                     </li>
